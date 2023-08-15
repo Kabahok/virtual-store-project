@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b3ef36be-f688-4ba9-862a-43bff1baa2e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataPerson/DataPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataPerson/DataPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deliveryOfProduct/DeliveryOfProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deliveryOfProduct/DeliveryOfProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storageArea/StorageArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storageArea/StorageArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/StoreFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/StoreFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

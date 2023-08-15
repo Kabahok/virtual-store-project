@@ -22,4 +22,8 @@ public class Product {
         return String.format("ID: %d\nНазвание товара: %s\nЦена: %d\nПроизводитель: %s\nДоступно для покупки: %d\n",
                 id, name, price, maker, count);
     }
+
+    public int getId() {
+        return id;
+    }
 }
