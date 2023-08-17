@@ -1,7 +1,7 @@
-package storageArea;
+package main.storageArea;
 
-import product.Product;
-import store.Store;
+import main.checkingDuplicates.CheckingForDuplicateItems;
+import main.product.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,10 +23,7 @@ public class StorageArea implements StorageFunctions {
     @Override
     public void addProduct(List<Product> products) {
         for (Product product: products) {
-            if (!productsId.contains(product.getId())) {
-                this.products.add(product);
-                productsId.add(product.getId());
-            }
+            CheckingForDuplicateItems.repeateCheck(this.products, productsId, product);
         }
     }
 

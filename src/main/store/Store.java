@@ -1,26 +1,31 @@
-package store;
+package main.store;
 
-import product.Product;
-import storageArea.StorageArea;
+import main.OutputProducts;
+import main.basket.AddingProduct;
+import main.basket.Basket;
+import main.product.Product;
+import main.storageArea.StorageArea;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Store {
+public class Store implements OutputProducts, AddingProduct {
     private int id;
     private String name;
     private String owner;
     private List<Product> products;
     private StorageArea storageArea;
+    private Basket basket;
 
     public Store(int id, String name, String owner) {
         this.id = id;
         this.name = name;
         this.owner = owner;
         this.storageArea = new StorageArea();
+        this.basket = new Basket();
     }
 
-    public void outputProduct() {
+    @Override
+    public void outputProducts() {
         getProductsFromStorageArea();
         products.forEach(System.out::println);
     }
@@ -45,4 +50,8 @@ public class Store {
         return owner;
     }
 
+    @Override
+    public void addProduct(List<Product> products) {
+        basket.addProduct(products);
+    }
 }

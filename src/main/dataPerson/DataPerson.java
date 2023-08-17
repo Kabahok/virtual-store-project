@@ -1,4 +1,4 @@
-package dataPerson;
+package main.dataPerson;
 
 public class DataPerson {
     private String name;

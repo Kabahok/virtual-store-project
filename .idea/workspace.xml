@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ef36be-f688-4ba9-862a-43bff1baa2e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/basket/Basket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataPerson/DataPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataPerson/DataPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deliveryOfProduct/DeliveryOfProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deliveryOfProduct/DeliveryOfProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storageArea/StorageArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storageArea/StorageArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/StoreFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/StoreFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OutputProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/OutputProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basket/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataPerson/DataPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dataPerson/DataPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delivery/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/delivery/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deliveryOfProduct/DeliveryOfProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/productsDelivery/DeliveryOfProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storageArea/StorageArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/storageArea/StorageArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storageArea/StorageFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/storageArea/StorageFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/StoreFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/StoreFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +52,22 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="virtual-store-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.egoravdeev.Main" />
       <module name="virtual-store-project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,5 +90,16 @@
       <updated>1692061770888</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

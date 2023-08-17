@@ -1,6 +1,6 @@
-package order;
+package main.order;
 
-import dataPerson.DataPerson;
+import main.dataPerson.DataPerson;
 
 public class Order {
     private int id;

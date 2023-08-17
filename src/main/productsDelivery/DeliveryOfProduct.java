@@ -1,7 +1,7 @@
-package deliveryOfProduct;
+package main.productsDelivery;
 
-import product.Product;
-import storageArea.StorageArea;
+import main.product.Product;
+import main.storageArea.StorageArea;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package product;
+package main.product;
 
 public class Product {
     private int id;
@@ -25,5 +25,13 @@ public class Product {
 
     public int getId() {
         return id;
+    }
+
+    public void setCount(int count) {
+        this.count += count;
+    }
+
+    public int getCount() {
+        return count;
     }
 }

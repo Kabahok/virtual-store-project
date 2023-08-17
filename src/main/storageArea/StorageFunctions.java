@@ -1,6 +1,7 @@
-package storageArea;
+package main.storageArea;
 
-import product.Product;
+import main.product.Product;
+
 import java.util.List;
 
 public interface StorageFunctions {
