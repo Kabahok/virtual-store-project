@@ -5,6 +5,7 @@ import main.product.Product;
 import main.store.Store;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -16,14 +17,18 @@ public class Main {
                 new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150),
                 new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150)
         ), store.getStorageArea());
+//
+//        deliveryOfProduct.deliverProducts();
+//
+//        store.addProduct(Arrays.asList(
+//                new Product(1, "Хлеб", "Выпечка", 20, "Дружба", 100),
+//                new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150),
+//                new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150)
+//        ));
 
-        deliveryOfProduct.deliverProducts();
+        Scanner sc = new Scanner(System.in);
 
-        store.addProduct(Arrays.asList(
-                new Product(1, "Хлеб", "Выпечка", 20, "Дружба", 100),
-                new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150),
-                new Product(2, "Молоко", "Молочная", 40, "Домик в деревне", 150)
-        ));
+
 
     }
 }

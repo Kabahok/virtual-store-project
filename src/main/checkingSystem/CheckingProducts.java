@@ -1,10 +1,10 @@
-package main.checkingDuplicates;
+package main.checkingSystem;
 
 import main.product.Product;
 
 import java.util.List;
 
-public class CheckingForDuplicateItems{
+public class CheckingProducts {
 
     public static void repeateCheck(List<Product> products, List<Integer> productsId, Product productItem) {
         if (!productsId.contains(productItem.getId())) {

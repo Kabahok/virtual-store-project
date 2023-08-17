@@ -1,7 +1,7 @@
 package main.basket;
 
 import main.OutputProducts;
-import main.checkingDuplicates.CheckingForDuplicateItems;
+import main.checkingSystem.CheckingProducts;
 import main.product.Product;
 
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ public class Basket implements AddingProduct, OutputProducts {
     @Override
     public void addProduct(List<Product> products) {
         for (Product product : products) {
-            CheckingForDuplicateItems.repeateCheck(this.products, productsId, product);
+            CheckingProducts.repeateCheck(this.products, productsId, product);
         }
 
         outputProducts();
